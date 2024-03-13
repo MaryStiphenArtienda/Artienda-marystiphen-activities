@@ -1,0 +1,71 @@
+.login-container {
+    background-color: pink;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+}
+
+.link-style:link {
+    color: rgb(7, 4, 6);
+    background-color: rgb(253, 148, 227);
+}
+
+.link-style:hover {
+    color: rgb(255, 255, 250);
+    background-color: rgb(253, 106, 204);
+}
+
+.link-style:active {
+    color: rgb(233, 230, 230);
+    background-color: rgb(253, 106, 204);
+}
+
+
+
+h1 {
+
+    color: rgb(10, 10, 10);
+    background-color: rgb(252, 53, 186);
+}
+
+h2 {
+    font-size: 10px;
+    color: rgb(5, 4, 5);
+}
+
+label {
+    color: rgb(5, 5, 5);
+}
+
+#userlabel {
+
+    font-size: 17px;
+    background-color: rgb(245, 96, 195);
+}
+
+#passlabel {
+    font-size: 17px;
+    background-color: rgb(245, 96, 195);
+}
+
+#genderlabel {
+    font-size: 17px;
+    background-color: rgb(245, 96, 195);
+}
+
+#namelabel {
+    font-size: 17px;
+    background-color: rgb(245, 96, 195);
+}
+
+.text-design {
+    color: rgb(5, 5, 5);
+}
+
+.text-design1 {
+    font-size: 20px;
+    background-color: rgb(245, 96, 195);
+
+}
