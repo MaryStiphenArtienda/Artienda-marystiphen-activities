@@ -1,0 +1,303 @@
+.yt {
+    position: fixed;
+    left: 0;
+    top: 10px;
+    background-color: #fd81c5;
+    color: #DFF5FF;
+    width: 10%;
+    padding: 14px;
+    border: 5px solid #020d1f;
+
+
+}
+
+.background {
+    position: fixed;
+    left: 0;
+    top: 370px;
+    background-color: #e9ecf0;
+    color: #DFF5FF;
+    width: 10%;
+    padding: 14px;
+    border: 5px solid #020d1f;
+    height: 234px;
+
+
+}
+
+.home {
+    position: fixed;
+    left: 0;
+    top: 100px;
+    background-color: #fd81c5;
+    color: #DFF5FF;
+    width: 10%;
+    padding: 14px;
+    border: 5px solid #020d1f;
+
+
+}
+
+.shorts {
+    position: fixed;
+    left: 0;
+    top: 192px;
+    background-color: #fd81c5;
+    color: #DFF5FF;
+    width: 10%;
+    padding: 14px;
+    border: 5px solid #020d1f;
+
+
+}
+
+.subcription {
+    position: fixed;
+    left: 0;
+    top: 284px;
+    background-color: #fd81c5;
+    color: #DFF5FF;
+    width: 10%;
+    padding: 14px;
+    border: 5px solid #020d1f;
+
+
+}
+
+.topbar {
+    position: fixed;
+    left: 170px;
+    top: 10px;
+    background-color: #fd81c5;
+    color: #DFF5FF;
+    width: 80.5%;
+    padding: 43px;
+    border: 5px solid #020d1f;
+
+
+}
+
+.searchbar {
+    position: fixed;
+    left: 300px;
+    top: 18px;
+    background-color: #e737bb;
+    color: #ffdff5;
+    width: 18%;
+    padding: 20px;
+    border: 5px solid #020d1f;
+
+
+}
+
+.bar {
+    font-size: 20px;
+}
+
+.search {
+    position: fixed;
+    left: 630px;
+    top: 22px;
+    background-color: #e737bb;
+    color: #ffdff5;
+    width: 4.7%;
+    padding: 1px;
+    border: 5px solid #020d1f;
+
+
+
+}
+
+.pic {
+    position: fixed;
+    left: 1250px;
+    top: 20px;
+    background-color: #e737bb;
+    color: #ffdff5;
+    width: 5%;
+    padding: 5px;
+    border: 5px solid #020d1f;
+
+
+
+}
+
+.box1 {
+
+    position: relative;
+    left: 15%;
+    top: 120px;
+    background-color: #fd81c5;
+    color: #33667e;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #020d1f;
+    width: 25%;
+    height: 150px;
+
+}
+
+.box2 {
+
+    position: absolute;
+    left: 590px;
+    top: 124px;
+    background-color: #fd81c5;
+    color: #33667e;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #020d1f;
+    width: 25%;
+    height: 150px;
+
+}
+
+.box3 {
+
+    position: absolute;
+    left: 973px;
+    top: 124px;
+    background-color: #fd81c5;
+    color: #33667e;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #020d1f;
+    width: 25%;
+    height: 150px;
+
+}
+
+.box4 {
+
+    position: absolute;
+    left: 210px;
+    top: 324px;
+    background-color: #fd81c5;
+    color: #33667e;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #020d1f;
+    width: 25%;
+    height: 150px;
+
+}
+
+.box5 {
+
+    position: absolute;
+    left: 590px;
+    top: 324px;
+    background-color: #fd81c5;
+    color: #33667e;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #020d1f;
+    width: 25%;
+    height: 150px;
+
+}
+
+.box6 {
+
+    position: absolute;
+    left: 973px;
+    top: 324px;
+    background-color: #fd81c5;
+    color: #33667e;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #020d1f;
+    width: 25%;
+    height: 150px;
+
+}
+
+.box7 {
+
+    position: absolute;
+    left: 210px;
+    top: 524px;
+    background-color: #fd81c5;
+    color: #33667e;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #020d1f;
+    width: 25%;
+    height: 150px;
+
+}
+
+.box8 {
+
+    position: absolute;
+    left: 590px;
+    top: 524px;
+    background-color: #fd81c5;
+    color: #33667e;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #020d1f;
+    width: 25%;
+    height: 150px;
+
+}
+
+.box9 {
+
+    position: absolute;
+    left: 973px;
+    top: 524px;
+    background-color: #fd81c5;
+    color: #33667e;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #020d1f;
+    width: 25%;
+    height: 150px;
+
+}
+
+.box10 {
+
+    position: absolute;
+    left: 210px;
+    top: 724px;
+    background-color: #fd81c5;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #020d1f;
+    width: 25%;
+    height: 150px;
+
+}
+
+.box11 {
+
+    position: absolute;
+    left: 590px;
+    top: 725px;
+    background-color: #fd81c5;
+    ;
+    color: #33667e;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #020d1f;
+    width: 25%;
+    height: 150px;
+
+}
+
+.box12 {
+
+    position: absolute;
+    left: 974px;
+    top: 727px;
+    background-color: #fd81c5;
+    color: #33667e;
+    margin: 5px;
+    padding: 10px;
+    border: 5px solid #020d1f;
+    width: 25%;
+    height: 150px;
+
+}
