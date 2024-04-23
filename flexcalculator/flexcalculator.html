@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex.container {
+  width: 250px;
+  margin: auto;
+  border: 7px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.display {
+  width: 100%;
+  height: 90px;
+  text-align: right;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 15px solid rgba(50, 50, 50, 1);
+  background-color: lightgreen;
+  color: black;
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.buttons button {
+  width: 25%;
+  height: 70px;
+  font-size: 20px;
+  border: 10px solid rgba(50, 50, 50, 1);
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.buttons button.equal {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.buttons button.plus,
+.buttons button.minus,
+.buttons button.times,
+.buttons button.divide {
+  background-color: rgba(0, 206, 209, 1);
+}
+</style>
+</head>
+<body>
+
+    <div class="flex container">
+        <div class="display" id="display"></div>
+        <div class="buttons">
+          <button onclick="addToDisplay('7')">7</button>
+          <button onclick="addToDisplay('8')">8</button>
+          <button onclick="addToDisplay('9')">9</button>
+          <button onclick="addToDisplay('/')" class="divide">/</button>
+          <button onclick="addToDisplay('4')">4</button>
+          <button onclick="addToDisplay('5')">5</button>
+          <button onclick="addToDisplay('6')">6</button>
+          <button onclick="addToDisplay('*')" class ="times">*</button>
+          <button onclick="addToDisplay('1')">1</button>
+          <button onclick="addToDisplay('2')">2</button>
+          <button onclick="addToDisplay('3')">3</button>
+          <button onclick="addToDisplay('-')" class ="minus">-</button>
+          <button onclick="addToDisplay('0')">0</button>
+          <button onclick="addToDisplay('.')">.</button>
+          <button onclick="calculateResult()" class="equal">=</button>
+          <button onclick="addToDisplay('+')" class="plus">+</button>
+        </div>
+      </div>
+      
+      <script>
+      function addToDisplay(value) {
+        document.getElementById('display').innerText += value;
+      }
+      
+      function calculateResult() {
+        var displayValue = document.getElementById('display').innerText;
+        var result = eval(displayValue);
+        document.getElementById('display').innerText = result;
+      }
+      </script>
+      
+      </body>
+      </html>
+      
