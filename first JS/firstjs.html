@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First JS</title>
+
+    <script>
+        function first() {
+            document.getElementById('sample1').innerHTML = "This is my first web page Js";
+            document.getElementById('sample1').style.backgroundColor = "blue";
+            document.getElementById('sample1').style.color = "white";    
+
+            document.getElementById('sample2').innerHTML = "by: Mary Stiphen Artienda";
+            document.getElementById('sample2').style.backgroundColor = "yellow";
+            document.getElementById('sample2').style.color = "red";
+
+            document.getElementById('sample3').innerHTML = "Advance JS and JS Framework";
+            document.getElementById('sample3').style.backgroundColor = "red";
+            document.getElementById('sample3').style.color = "white";
+        }
+    </script>
+   
+</head>
+<body>
+    <h1 id="sample1"></h1>
+    <h1 id="sample2"></h1>
+    <h1 id="sample3"></h1>
+
+    <button type="button" onclick="first()">
+       Click me
+    </button>
+
+    <script>
+        document.getElementById("sample").innerHTML = "";
+    </script>
+</body>
+</html>
